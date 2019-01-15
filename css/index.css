@@ -184,9 +184,9 @@ header .logo {
         justify-content: center;
     }
         header .logo {
-        /* border: 2px solid lightcoral; */
+        border: 2px solid lightcoral;
         display: inline-flex;
-        justify-content: space-between;
+        justify-content: center;
         margin-top: 25px;
         order: -1;
         width: 183px;
@@ -204,18 +204,22 @@ header .logo {
 
 @media (max-width: 500px) {
     header {
-        border: 1px solid lawngreen;
+        /* border: 1px solid lawngreen; */
         justify-content: center;
+        width: 100%;
     }
     header nav {
         display: flex;
         width: 100%;
-        border: 1px solid lightcoral;
+        /* border: 1px solid lightcoral; */
         flex-direction: column;
         
     }
     header nav a {
         justify-content: center;
+        margin: 15px 0px;
+        border-bottom: 1px solid black;
+        padding: 15px 0px;
     }
 }
 
